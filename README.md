@@ -26,7 +26,9 @@ Transistor: 2N2222 or similar.
 Servo: TowerPro MG995 or similar size.
 
 The voltage regulator 7805 is not the best choice. Use any 5V switch type small regulator.
- 
+
+First connect to controller over bluetooth. You will see a message that you need to calibrate the balancing point. Send c+ from serial monitor. This activate calibrating procedure. Set the bike to balancing point. Hold still when the bike does not fall to either side. Send c- from serial monitor. This will write the offsets to the EEPROM. After calibrating, the bike will begin to balance.
+
 More about this:
 
 https://youtu.be/Je9Y2WaRB6g
