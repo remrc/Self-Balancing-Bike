@@ -2,7 +2,7 @@
 
 Arduino nano, Nidec 24H motors, MPU6050, 3S 1000 mAh LiPo battery.
 
-Balancing controller can be tuned remotely over bluetooth.
+Balancing controller can be tuned remotely over bluetooth (but do this only if you know what you are doing).
 
 Example (change K1):
 
@@ -32,4 +32,6 @@ First connect to controller over bluetooth. You will see a message that you need
 More about this:
 
 https://youtu.be/Je9Y2WaRB6g
+
+If something doesn't work, you can try motors_test. This sketch tests the motors and steering servo. Follow the messages in the serial terminal.
 
